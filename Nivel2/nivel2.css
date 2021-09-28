@@ -1,0 +1,164 @@
+/*Configs Iniciais*/
+*{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #4084BC;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+/*Cabeçalho*/
+header{
+	padding-top: 2em;
+}
+nav{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.icone img{
+	height: 30px;
+	width: 30px;
+}
+/*Barra de Pesquisa*/
+#divBusca{
+	background-color: white;
+	border: solid 2px #4084BC;
+	border-radius: 10px;
+	width: 380px;
+	height: 32px;
+}
+#txtBusca{
+	float: left;
+	background-color: transparent;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 32px;
+	width: 270px;
+}
+#btnBusca{
+	color: white;
+	border: none;
+	float: left;
+	height: 32px;
+	border-radius: 0 7px 7px 0;
+	width: 70px;
+	font-weight: bold;
+	background: #4084BC;
+}
+#divBusca img{
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+::-webkit-input-placeholder {
+   color: #4084BC;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #4084BC;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #4084BC;  
+}
+:-ms-input-placeholder {  
+   color: #4084BC;  
+}
+/*Migalhas de Pão*/
+.migalha{
+	width: 960px;
+	margin: 0 auto;
+}
+.migalha a{
+	font-size: 12px;
+	padding-right: 1em;
+}
+.migalha h1{
+	font-size: 50px;
+	font-weight: normal;
+	text-align: left;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+article{
+	padding-top: 1em;
+	margin-left: 2.5em;
+	margin-bottom: 1em;
+}
+article a{
+	font-size: 12px;
+	padding-right: 1em;
+}
+
+/*Grid*/
+div.Gradiente{
+	position:absolute; 
+	top:0px; 
+	left:0px;
+}
+figcaption{
+	font-size: 12px;
+	text-align: center;
+	right: 2em;
+	left: 2em;
+	top: 26em;
+    position: absolute;
+    color: white;
+}
+section{
+	display: inline-block;
+	position: relative;
+	margin-right: 1em;
+}
+section.sec2 p{
+	font-size: 14px;
+	text-align: left;
+}
+section.sec3{
+	display: inline;
+}
+section.sec3 a img{
+	float: left;
+	width: 40%;
+	margin: 5px;
+}
+main{
+	height: auto;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: grid;
+	grid-template-columns: 40% 40% 20%;
+	grid-template-rows:  auto;
+	grid-template-areas: "sec1 sec2 sec3 ";
+}
+/*Rodapé*/
+footer{
+	width: 960px;
+	margin: 0 auto;
+	display: grid;
+	padding-top: 1em;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows:  6em;
+	grid-template-areas:
+		"footer1 footer2 footer3";
+}
+footer section a img{
+	width: 80%;
+}
+footer section a p{
+	padding-top: 0.5em;
+	font-size: 14px;
+}
+footer section p{
+	padding-top: 0.5em;
+	font-size: 14px;
+}
+footer section a{
+	padding-top: 0.5em;
+	font-size: 14px;
+}
